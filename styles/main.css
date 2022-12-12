@@ -1,0 +1,53 @@
+/* Browser reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Bookings */
+
+h1 {
+    border-bottom: solid 2px #333;
+    text-align: center;
+    margin: 5px;
+}
+
+.bookings {
+    border: solid 2px #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.bookings h2 {
+    flex-basis: 100%;
+}
+
+.bookings div {
+    flex-basis: 50%;
+}
+
+/* Bands and Venues */
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list {
+    padding: 10px 20px;
+    border: solid 2px #333;
+}
+
+.list h2 {
+    margin: 5px;
+}
+
+.list li {
+    margin: 3px;
+}
